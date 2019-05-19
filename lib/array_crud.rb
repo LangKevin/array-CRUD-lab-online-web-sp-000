@@ -5,6 +5,10 @@ end
 
 def create_an_array
   my_array = Array.new
+  my_array.unshift("arr1")
+  my_array.unshift("arr2")
+  my_array.unshift("arr3")
+  my_array.unshift("arr4")
 end
 
 def add_element_to_end_of_array(array, element)
